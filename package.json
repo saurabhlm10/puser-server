@@ -1,0 +1,20 @@
+{
+  "name": "pusher-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "pusher": "^5.1.3",
+    "pusher-js": "^8.0.2"
+  }
+}
