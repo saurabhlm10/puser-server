@@ -20,7 +20,7 @@ app.post('/send', (req, res) => {
 
         console.log('TEXT', text)
 
-        pusherServer.trigger("chat", "incoming-message", { text });
+        pusherServer.trigger("chat", "incoming-message", text );
 
         res.status(200).send('OK')
     } catch (error) {
